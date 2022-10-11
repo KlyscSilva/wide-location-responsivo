@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.950px;
+    color: #17233d;
+    margin: 44px 0px 144px 76px;
+    cursor: pointer;
+
+}
+
+.link-header {
+
+    margin: 0px 23px 0px 0px;
+    letter-spacing: 0.875px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+
+}
+
+.foto {
+
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+.button1 {
+
+    background: #6fbf44;
+    border: 1px solid #4cb538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border: none;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+
+}
+
+section {
+
+    display: inline-block;
+    margin-left: 80px;
+
+}
+
+h1 {
+
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161a49;
+    width: 582px;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4b505a;
+    width: 493px;
+    margin-top: 32px;
+    margin-bottom: 68px;
+}
+
+.link2 {
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+button:hover {
+    color: aqua;
+    opacity: 0.5;
+}
+
+button:visited {
+    color: blueviolet;
+}
+
+@media screen and (max-width: 800px) {
+
+    h1 {
+
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        width: 240px;
+        height: 40px;
+        text-align: center;
+        
+    }
+
+    p {
+        width: 240px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin: 70px 10px;
+    }
+
+    .link2 {
+        width: 112px;
+        height: 27px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        color: #6FBF44;
+        margin: 80px 80px auto;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button1 {
+
+        float: right;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        margin: 40px 50px;
+        border-radius: 6px;
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+    }
+
+    .foto {
+
+        position: static;
+        max-width: 50%;
+        margin-right: 60px;
+        display: inline-block;
+        width: 500px;
+        height: 250px;
+       
+    }
+    
+
+}
